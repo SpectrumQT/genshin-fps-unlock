@@ -26,6 +26,7 @@ namespace unlockfps_nc.Model
         public int CustomResY { get; set; } = 1080;
         public int MonitorNum { get; set; } = 1;
         public int Priority { get; set; } = 3;
+        public string AdditionalCommandLine { get; set; } = "";
 
         public List<string> DllList { get; set; } = new();
     }
